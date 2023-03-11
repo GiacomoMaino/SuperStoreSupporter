@@ -1,4 +1,4 @@
 module me.gm.sss.core {
-    requires javafx.controls;
+    requires transitive javafx.controls;
     exports me.gm.sss.core;
 }
